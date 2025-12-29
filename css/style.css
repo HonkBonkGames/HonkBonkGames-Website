@@ -1,0 +1,213 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft YaHei", sans-serif;
+}
+
+body a {
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0;
+}
+
+ion-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+
+.main-page {
+	background-color: #dfdfdf;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .main-section, .policy-section {
+        padding: 80px 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-section {
+        padding: 80px 200px;
+    }
+
+	.policy-section {
+		padding: 80px 200px;
+	}
+}
+
+.sub-page {
+	background-color: rgb(222, 222, 222);
+}
+
+.main-bg, .sub-bg {
+	background-color: rgb(224, 224, 224);
+}
+
+.sub-bg {
+	padding-top: 60px;
+}
+
+.section-title {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/*-- Navbar --*/
+nav {
+	height: 60px;
+	background-color: #919191;
+}
+
+nav a:hover {
+	color: #7f7f7f
+}
+
+nav .dropdown-menu {
+	background-color: #bababa;
+}
+
+nav .dropdown-item:hover {
+	background-color: #838383;
+}
+
+@media (max-width: 992px) {
+    nav #navbarNav {
+        background-color: #b7b7b7;
+		margin: 0px -15px;
+		padding: 0px 10px;
+	}
+
+	nav .dropdown-menu {
+		margin-bottom: 10px;
+	}
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: var(--bs-navbar-active-color);
+	background-color: #b8b8b8;
+}
+
+/*-- Footer --*/
+.footer-icon {
+    font-size: 20px;
+}
+
+.footer-link {
+    text-decoration: underline;
+	margin-left: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+	color: #222;
+}
+
+.footer {
+	padding: 35px 0px;
+	background-color: #b4b4b4;
+}
+
+.footer h4 {
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.footer a {
+	color: #000;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+/*-- Games --*/
+.games {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.games .card {
+	padding: 10px;
+	background-color: #0000;
+	border-color: #b2b2b2;
+	border-width: 2px;
+	width: 16rem;
+	text-align: center;
+    box-shadow: 0 6px 10px #adadad3b, 0 0 6px #adadad2e;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow;
+}
+
+.games .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.05), 0 4px 8px rgba(0,0,0,.02);
+}
+
+.games .card-title {
+	font-weight: bold;
+	padding: 5px 0px;
+}
+
+.games .google-btn {
+	display: inline-block;
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.games .btn-img {
+	width: 7rem;
+}
+
+.games .google-btn:hover {
+	transform: scale(1.05);
+}
+
+/*-- Policy Pages --*/
+.policy-section .last-updated {
+	font-style: italic;
+	padding-bottom: 20px;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.policy-section h3, .policy-section h4 {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+
+.policy-section p, .policy-section ul {
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.policy-section h3, .policy-section h5 {
+	padding: 10px 0px;
+}
+
+.policy-section a {
+	color: #222;
+	text-decoration: underline;
+}
